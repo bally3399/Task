@@ -130,7 +130,7 @@ public class Checkout{
 		            Discount: %.2f
 
 			    VAT @ 17.50%%: %.2f
-		======================================%n""",subTotal, discountPercentage, vat);
+		======================================%n""",subTotal, discountedPrice, vat);
 	}
 
 	public void printReceipt1(){
@@ -151,7 +151,7 @@ public class Checkout{
 		             Discount: %.2f
 
 			VAT @ 17.50%%: %.2f
-		======================================%n""",subTotal, discountPercentage, vat);
+		======================================%n""",subTotal, discountedPrice, vat);
 		System.out.printf("""
 			  Bill Total: %.2f 
 	
